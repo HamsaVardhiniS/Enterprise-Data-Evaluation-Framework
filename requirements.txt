@@ -1,0 +1,18 @@
+# Enterprise Data Evaluation & Trust Framework (EDET)
+# Python 3.10+
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0          # Excel support
+
+# Statistical & analytical
+scipy>=1.11.0
+scikit-learn>=1.3.0      # VIF, Isolation Forest
+
+# Dashboard & reporting
+streamlit>=1.28.0
+plotly>=5.18.0
+
+# Optional: NER for governance (fallback if not available)
+# transformers could be added later for ML-based sensitivity
